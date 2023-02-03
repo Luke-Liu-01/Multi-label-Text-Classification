@@ -13,7 +13,7 @@ The comments data is crawling from the ''Autohome'' platform and then annotated 
     The CNN-based model is proposed by Kim[<sup>1</sup>](#R1) and the model structure is shown as bellow. Kim use multiple convolution kernels with varying window sizes to obtain different feature maps. The author then applies a max-over-time pooling operation each feature map, which is expected to choose the most significant feature for each feature map.
     <div align='center'><img src="./references/figures/TextCNN-1.png" width="80%"></div>
     The below figure shows how the TextCNN model processes the example sentence ''I like this movie very much !''.
-    <center><img src="./references/figures/TextCNN-2.png" width="80%"></center>
+    <div align='center'<img src="./references/figures/TextCNN-2.png" width="80%"></div>
 
 
 * TextRCNN
