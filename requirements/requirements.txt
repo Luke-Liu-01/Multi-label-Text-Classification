@@ -1,0 +1,5 @@
+torch==1.9.0
+pandas==1.2.5
+torchtext==0.10.0
+numpy==1.20.2
+jieba==0.42.1
