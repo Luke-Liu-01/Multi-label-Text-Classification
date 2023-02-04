@@ -1,11 +1,11 @@
 # Introduction
-This project aims to give a baseline model to solve multi-label text classification task with ``Autohome'' comments data.
+This project aims to give a baseline model to solve multi-label text classification task with ''Autohome'' comments data.
 
 
 # Data set
 The comments data is crawling from the ''Autohome'' platform and then annotated by me and my groupmates. ''Autohome'' provides users with detailed information about cars of various brands and types and users could also share their experience. The data set consists of 19,907 comments on different aspects (18 in total) varying from ''空间(space), 动力(power), 操控(control), 能耗(energy consumption), 舒适性(comfort), 外观(appearance), 内饰(interior), 性价比(cost-effective), 配置(configuration), 续航(distance till empty), 安全性(safety), 环保(environmental), 质量与可靠性(quality), 充电(charge), 服务(service), 品牌(brand), 智能驾驶(intelligent driving), 其它(other aspects)''. Since it is a multi-label classification task, **each instance is assigned to one or more labels**.
 
-※ There may be follow-on work on this data set so it is not released as public. I only provide a sample data located in ``./data''.
+※ There may be follow-on work on this data set so it is not released as public. I only provide a sample data located in `./data/`.
 
 # Models
 * TextCNN
